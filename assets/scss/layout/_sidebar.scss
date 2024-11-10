@@ -1,0 +1,79 @@
+.sidebarArea {
+  flex-shrink: 0;
+  width: 240px;
+  background-color: #0A0839;
+  color: #fff;
+  z-index: 1031;
+  .sidenav-bg:hover {
+    background-color: #898AA1;
+    border-radius: $border-radius;
+    width: 240px;
+  }
+  .sidenav-bg .active {
+    background-color: #898AA1 !important;
+    color: #fff;
+    border-radius: $border-radius;
+    width: 240px;
+  }
+  .sidenav:hover {
+    background-color: #898AA1;
+    border-radius: $border-radius;
+  }
+  .sidenav .active {
+    background-color: #898AA1 !important;
+    color: #fff;
+    border-radius: $border-radius;
+  }
+  .bar:hover {
+    background-color: #0A0839 !important;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .sidebarArea {
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    z-index: 1;
+    margin-left: -$sidebarWidth;
+    transition: 0.2s ease-in;
+    &.showSidebar {
+      margin-left: 0px;
+    }
+  }
+}
+
+.chatContainer :hover{
+  background-color: #898AA1 !important;
+  cursor: pointer;
+}
+
+.truncatedText {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.editInput {
+  background-color: white !important;
+  border: 1px solid #ced4da;
+}
+
+.editInput:hover {
+  background-color: white !important;
+}
+
+.editInput:focus {
+  background-color: white !important;
+  box-shadow: none;
+}
+
+.selected {
+  background-color: #898AA1;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+
+.drop:hover{
+  color: #fff !important;
+}

@@ -1,0 +1,23 @@
+.acetl{
+     
+  
+   padding-left: 21px;
+    font-family: Inter; /* Body */
+    font-size: 11px; 
+    line-height: 18px; 
+    font-weight: 400; 
+    color: #434358FF;
+}
+.NavList{
+    color: "#9095A0FF";
+}
+.NavList:hover{
+    background:" #CCE7FFFF" !important;
+    color :#3799E5FF;
+    width: "50px";
+    fill:"#3799E5FF"
+    
+}
+.divider{
+    
+}

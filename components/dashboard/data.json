@@ -1,0 +1,23 @@
+{
+    "weeklyActivity": {
+      "labels": [ "Mon", "Tue", "Wed", "Thu", "Fri","Sat", "Sun"],
+      "depositData": [500, 200, 300, 500, 150, 400, 350],
+      "withdrawData": [300, 100, 50, 100, 70, 250, 250]
+    },
+    "expenseStatistics": [
+      { "label": "Entertainment", "value": 30 },
+      { "label": "Bill Expense", "value": 15 },
+      { "label": "Investment", "value": 20 },
+      { "label": "Others", "value": 35 }
+    ],
+    "balanceHistory": [
+      { "month": "Jul", "value": 100 },
+      { "month": "Aug", "value": 300 },
+      { "month": "Sep", "value": 200 },
+      { "month": "Oct", "value": 700 },
+      { "month": "Nov", "value": 400 },
+      { "month": "Dec", "value": 300 },
+      { "month": "Jan", "value": 500 }
+    ]
+  }
+ 
